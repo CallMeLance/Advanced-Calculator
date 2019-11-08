@@ -5,7 +5,7 @@ class KeypadRow extends Component {
     render() {
         return (
             <div className="KeypadRow">
-                {this.props.children}2
+                {this.props.children}
             </div>
             
         )

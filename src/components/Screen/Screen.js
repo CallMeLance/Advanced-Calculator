@@ -9,11 +9,11 @@ class Screen extends Component {
         return (
             <div className='Screen'>
                 <ResultsScreen>
-                 0
+                 {this.props.result}
                 </ResultsScreen>
 
                 <ComputationScreen>
-                    2+3 
+                    {this.props.equation}
                 </ComputationScreen>
             </div>
         );
